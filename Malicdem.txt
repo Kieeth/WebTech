@@ -1,0 +1,1560 @@
+commit 25ea5bba65f67c80c183732e2850cc6ddf460830
+Author:     Keeth <kparm2251814@slu.edu.ph>
+AuthorDate: 2026-11-08 20:13:44 +0000
+Commit:     Keeth <kparm2251814@slu.edu.ph>
+CommitDate: 2026-11-08 20:13:44 +0000
+
+    Add web server activity folder
+
+diff --git a/malicdem.txt b/malicdem.txt
+new file mode 100644
+index 0000000..cd05d1d
+--- /dev/null
++++ b/malicdem.txt
+@@ -0,0 +1,714 @@
++commit 256ce623f4b2b5924915ca0c2fdd8552cee1fdcf
++Author:     Kieeth <kparm2251814@slu.edu.ph>
++AuthorDate: 2026-10-08 13:29:01 +0800
++Commit:     Kieeth <kparm2251814@slu.edu.ph>
++CommitDate: 2026-10-08 13:29:01 +0800
++
++    final
++
++diff --git a/emmet-laboratory/images/keith.jpg b/emmet-laboratory/images/keith.jpg
++new file mode 100644
++index 0000000..cc60219
++Binary files /dev/null and b/emmet-laboratory/images/keith.jpg differ
++diff --git a/emmet-laboratory/portfolio.html b/emmet-laboratory/portfolio.html
++index d6b9631..b674abd 100644
++--- a/emmet-laboratory/portfolio.html
+++++ b/emmet-laboratory/portfolio.html
++@@ -17,24 +17,74 @@
++     
++     <nav>
++         <ul>
++-            <li><a href="Home">Home</a></li>
++-            <li><a href="About">About</a></li>
++-            <li><a href="Skills">Skills</a></li>
++-            <li><a href="Projects">Projects</a></li>
++-            <li><a href="Contact">Contact</a></li>
+++            <li><a href="#Home">Home</a></li>
+++            <li><a href="#About">About</a></li>
+++            <li><a href="#Skills">Skills</a></li>
+++            <li><a href="#Projects">Projects</a></li>
+++            <li><a href="#Contact">Contact</a></li>
++         </ul>
++     </nav>
++         
++     <section id="About">
++         <article>
++         <h2>About Me</h2>
++-        <p>Keith Philipp Andrei R. Malicdem is an undergraduate student pursuing a 
+++        <p><strong>Keith Philipp Andrei R. Malicdem</strong> is an undergraduate student pursuing a 
++             Bachelor of Science in Information Technology with a major in Web Technologies at 
++             University of the Cordilleras in Baguio City, Philippines. Blending a keen eye for graphic design, 
++             layouting, and photography, he naturally unites his creative passions with his technical studies 
++             by focusing his niche in web development on the front-end side of things.
++         </p>
+++
+++        <img src="images/keith.jpg" alt="Keith Phillipp Andrei R. Malicdem" width="200" height="200">
+++        </article>
+++    </section>  
+++
+++    <section id="Skills">
+++        <article>
+++        <h2>Skills</h2>
+++        <ul>
+++            <li>HTML5</li>
+++            <li>CSS3</li>
+++            <li>JavaScript</li>
+++            <li>Git and GitHub</li>
+++            <li>Responsive Web Design</li>
+++        </ul>
++         </article>
+++    </section>
+++
+++    <section id="Projects">
+++        <article>
+++        <h2>Projects</h2>
+++        <p>Here are some of my projects:</p>
+++        <ul>
+++            <li>Project 1</li>
+++                <p>Description of Project 1: A responsive web application that allows users to track their daily tasks and set reminders.</p>
+++            <li>Project 2</li>
+++                <p>Description of Project 2: A portfolio website showcasing my web development projects and skills, built using HTML, CSS, and JavaScript.</p>
+++            <li>Project 3</li>
+++                <p>Description of Project 3: A simple blog website built using HTML and CSS.</p>
+++        </ul>
+++        </article>
+++    </section>
+++
+++    <section id="Contact">
+++        <article>
+++        <h2>Contact</h2>
+++        <p>You can reach me at:</p>
+++        <ul>
+++            <li>Email: andreirmalicdem@gmail.com</li>
+++            <li>Phone: +63 965 206 3279</li>
+++            
+++        </ul>
+++        <div>
+++        <p>Feel free to connect with me for any web development opportunities or collaborations!</p>
+++            <input type="text" name="Name" id="Name" placeholder="Your Name">
+++            <input type="email" name="Email" id="Email" placeholder="Your Email">
+++            <input type="text" name="Subject" id="Subject" placeholder="Subject">
+++            <input type="text" name="Message" id="Message" placeholder="Your Message">
+++            <input type="submit" value="Send Message">
+++        </div>
+++    </section>
++ 
++ </body>
++ </html>
++\ No newline at end of file
++
++commit 87dd45ffad31dadbd3d9b8534e23ad04c49c9971
++Author:     Kieeth <kparm2251814@slu.edu.ph>
++AuthorDate: 2026-10-08 13:07:52 +0800
++Commit:     Kieeth <kparm2251814@slu.edu.ph>
++CommitDate: 2026-10-08 13:07:52 +0800
++
++    portfolio and semantic html files have been modified. The portfolio.html file now includes an "About Me" section with a brief introduction about the author, Keith Philipp Andrei R. Malicdem, highlighting his academic background and interests in web development and design. The semantic.html file has also been updated, but the specific changes are not detailed in the commit message.
++
++diff --git a/emmet-laboratory/05-semantic.html b/emmet-laboratory/05-semantic.html
++index 9e6fd74..0a96a7b 100644
++--- a/emmet-laboratory/05-semantic.html
+++++ b/emmet-laboratory/05-semantic.html
++@@ -27,7 +27,6 @@
++ 
++         </article>
++     </section>
++-    
++     <div class="container">
++         <header>
++             <h1>My Portfolio</h1>
++diff --git a/emmet-laboratory/portfolio.html b/emmet-laboratory/portfolio.html
++new file mode 100644
++index 0000000..d6b9631
++--- /dev/null
+++++ b/emmet-laboratory/portfolio.html
++@@ -0,0 +1,40 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>My Portfolio</title>
+++</head>
+++<body>
+++    
+++    <header>
+++        <h1>Keith Phillipp Andrei R. Malicdem</h1>
+++        <h2>Short Introduction</h2>
+++        <p>A Bachelor of Science in Information Technology student</p>
+++        <p>Major in Web Technologies, focused in Front-end Development</p>
+++        <p>and Progressive Web Applications.</p>
+++    </header> 
+++    
+++    <nav>
+++        <ul>
+++            <li><a href="Home">Home</a></li>
+++            <li><a href="About">About</a></li>
+++            <li><a href="Skills">Skills</a></li>
+++            <li><a href="Projects">Projects</a></li>
+++            <li><a href="Contact">Contact</a></li>
+++        </ul>
+++    </nav>
+++        
+++    <section id="About">
+++        <article>
+++        <h2>About Me</h2>
+++        <p>Keith Philipp Andrei R. Malicdem is an undergraduate student pursuing a 
+++            Bachelor of Science in Information Technology with a major in Web Technologies at 
+++            University of the Cordilleras in Baguio City, Philippines. Blending a keen eye for graphic design, 
+++            layouting, and photography, he naturally unites his creative passions with his technical studies 
+++            by focusing his niche in web development on the front-end side of things.
+++        </p>
+++        </article>
+++
+++</body>
+++</html>
++\ No newline at end of file
++
++commit 6bd577dfc206f3e1859717683b21bda3ad27dc5f
++Author:     Kieeth <kparm2251814@slu.edu.ph>
++AuthorDate: 2026-10-08 12:49:07 +0800
++Commit:     Kieeth <kparm2251814@slu.edu.ph>
++CommitDate: 2026-10-08 12:49:07 +0800
++
++    commit more
++
++diff --git a/emmet-laboratory/05-semantic.html b/emmet-laboratory/05-semantic.html
++index 53dd6ea..9e6fd74 100644
++--- a/emmet-laboratory/05-semantic.html
+++++ b/emmet-laboratory/05-semantic.html
++@@ -27,10 +27,25 @@
++ 
++         </article>
++     </section>
+++    
+++    <div class="container">
+++        <header>
+++            <h1>My Portfolio</h1>
+++            <p>Web Developer</p>
+++        </header>
+++        <nav>
+++            <ul>
+++                <li><a href="#Home">Home</a></li>
+++                <li><a href="#About">About</a></li>
+++                <li><a href="#Services">Services</a></li>
+++                <li><a href="#Contact">Contact</a></li>
+++            </ul>
+++        </nav>
+++    </div>
++ </main>
++ 
++ <footer>
++     <p></p>
++ </footer>
++ 
++-</html>
++\ No newline at end of file
+++</html>     
++\ No newline at end of file
++
++commit 9bee3e68e7ade43c3dadc752b50df41650da20a8
++Author:     Kieeth <kparm2251814@slu.edu.ph>
++AuthorDate: 2026-10-08 12:42:51 +0800
++Commit:     Kieeth <kparm2251814@slu.edu.ph>
++CommitDate: 2026-10-08 12:42:51 +0800
++
++    intigration of #4 and #5
++
++diff --git a/emmet-laboratory/04-form.html b/emmet-laboratory/04-form.html
++index 8031054..dd6eaa6 100644
++--- a/emmet-laboratory/04-form.html
+++++ b/emmet-laboratory/04-form.html
++@@ -10,11 +10,19 @@
++ 
++     <div><input type="text" name="Student Id Number" id="IdNumber" placeholder="Enter your ID Number"></div>
++     <div><input type="email" name="Email" id="EmailInput" placeholder="Email Address"></div>
++-    <div><input type="text" name="" id="" placeholder="Full Name"></div>
+++    <div><input type="text" name="Full Name" id="FullNameInput" placeholder="Full Name"></div>
++     <div><input type="password" name="Password" id="pass" placeholder="Password"></div>
++     <p>Select your Gender</p>
++     <div><input type="checkbox" name="checkbox" id="Male">Male 
++         <input type="checkbox" name="checkbox2" id="Female">Female</div>
+++    <p>Enter your Course</p>
+++    <input type="text" name="Course" id="CourseInput" placeholder="Course">
+++    <p>What are your Hobbies</p>
+++    <input type="text" name="Hobbies" id="HobbiesInput" placeholder="Hobbies">
+++    <p>What is your Address</p>
+++    <input type="text" name="Address" id="AddressInput" placeholder="Address">
+++    <p></p>
+++    <input type="submit" value="Submit">    
++ 
++ 
++ 
++diff --git a/emmet-laboratory/05-semantic.html b/emmet-laboratory/05-semantic.html
++new file mode 100644
++index 0000000..53dd6ea
++--- /dev/null
+++++ b/emmet-laboratory/05-semantic.html
++@@ -0,0 +1,36 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Document</title>
+++</head>
+++<header>
+++    <h1>My Semantic Website</h1>
+++</header>
+++<nav>
+++    <ul>
+++        <li><a href="#Home">Home</a></li>
+++        <li><a href="#About">About</a></li>
+++        <li><a href="#Services">Services</a></li>
+++        <li><a href="#Contact">Contact</a></li>
+++    </ul>
+++</nav>
+++
+++<main>
+++    <section id="Home">
+++        <article>
+++            This is the Home section of My Semantic Website.
+++            I am Keith Phillipp Andrei R. Malicdem,
+++            a student of Bachelor of Science in Information Technology 
+++            at the University of the Cordilleras.       
+++
+++        </article>
+++    </section>
+++</main>
+++
+++<footer>
+++    <p></p>
+++</footer>
+++
+++</html>
++\ No newline at end of file
++
++commit 5f33fa7da07569db433efcf56c7ea1cb9c80efd8
++Author:     Keeth <kaypi.andrei@gmail.com>
++AuthorDate: 2026-10-03 12:41:34 +0800
++Commit:     Keeth <kaypi.andrei@gmail.com>
++CommitDate: 2026-10-03 12:41:34 +0800
++
++    Emmet Activities
++
++diff --git a/emmet-laboratory/01-basic.html b/emmet-laboratory/01-basic.html
++new file mode 100644
++index 0000000..4b66201
++--- /dev/null
+++++ b/emmet-laboratory/01-basic.html
++@@ -0,0 +1,37 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>01-basic-html</title>
+++</head>
+++
+++<header>
+++    <nav>
+++        <ul>
+++            <li></li>
+++            <li></li>
+++            <li></li>
+++            <li></li>
+++        </ul>
+++    </nav>
+++</header>
+++
+++<main>
+++    <body>
+++        <h1>This is the Emmet Laboratory Activity</h1>
+++
+++        <h2>This is a Heading 2 tag</h2>
+++        <h2>This is another Heading 2 tag</h2>
+++
+++        <p>This is the first paragraph tag</p>
+++        <p>This is the second paragraph tag</p>
+++        <p>This is the third Paragraph tag</p>
+++
+++    </body>
+++</main>
+++
+++    <footer>
+++    
+++    </footer>
+++</html>
++\ No newline at end of file
++diff --git a/emmet-laboratory/02-classes-ids.html b/emmet-laboratory/02-classes-ids.html
++new file mode 100644
++index 0000000..37e22f6
++--- /dev/null
+++++ b/emmet-laboratory/02-classes-ids.html
++@@ -0,0 +1,78 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=, initial-scale=1.0">
+++    <title>Document</title>
+++</head>
+++<body>
+++    <h1>Part 3</h1>
+++    <p class="introduction"></p>
+++    <div id="container"></div>
+++    <div class="card featured"></div>
+++    <section id="about" class="content-section"></section>
+++
+++    <header class="siteheader"></header>
+++    <nav id="main-nav"></nav>
+++    <main class="content"></main>
+++    <section id="about"></section>
+++    <footer class="sitefooter"></footer>
+++
+++<h1>Part 4 - A</h1>
+++
+++<ul>
+++    <li></li>
+++</ul>
+++
+++<nav>
+++    <ul>
+++        <li></li>
+++    </ul>
+++</nav>
+++
+++<nav>
+++    <ul>
+++        <li></li>
+++        <li></li>
+++        <li></li>
+++        <li></li>
+++        <li></li>
+++    </ul>
+++</nav>
+++
+++<h1>Part 4 - B</h1>
+++
+++<h1></h1>
+++<p></p>
+++
+++<hi></hi>
+++<h2></h2>
+++<p></p>
+++<p></p>
+++
+++<h1>Part 4 - C</h1>
+++
+++<li></li>
+++<li></li>
+++<li></li>
+++<li></li>
+++<li></li>
+++
+++<div></div>
+++<div></div>
+++<div></div>
+++
+++<P></P>
+++<P></P>
+++<P></P>
+++<P></P>
+++<P></P>
+++
+++<h1>Part 5</h1>
+++
+++<h1>My Web Development Journey</h1>
+++<p>I am Learning HTML, CSS, JavaScript, and Web Development</p>
+++
+++
+++</body>
+++</html>
++\ No newline at end of file
++diff --git a/emmet-laboratory/03-navigation.html b/emmet-laboratory/03-navigation.html
++new file mode 100644
++index 0000000..1c5f845
++--- /dev/null
+++++ b/emmet-laboratory/03-navigation.html
++@@ -0,0 +1,64 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Navigation</title>
+++
+++</head>
+++<body>
+++
+++    <h2>Part 6</h2>
+++
+++    <ul>
+++        <li class="Home">Home</li>
+++        <li class="About">About</li>
+++        <li class="Services">Services</li>
+++        <li class="Projects">Projects</li>
+++        <li class="Contact">Contact</li>
+++    </ul>
+++
+++    <h2>Part 7</h2>
+++    
+++    <nav>
+++        <ul>
+++            <li><a href=""></a></li>
+++            <li><a href=""></a></li>
+++            <li><a href=""></a></li>
+++            <li><a href=""></a></li>
+++            <li><a href=""></a></li>
+++        </ul>
+++    </nav>
+++
+++    <nav>
+++        <ul>
+++            <li><a href="">Menu 1</a></li>
+++            <li><a href="">Menu 2</a></li>
+++            <li><a href="">Menu 3</a></li>
+++            <li><a href="">Menu 4</a></li>
+++            <li><a href="">Menu 5</a></li>
+++        </ul>
+++    </nav>
+++
+++    <nav>
+++        <ul>
+++            <li><a href="Name"></a>Home</li>
+++            <li><a href="About"></a>About</li>
+++            <li><a href="Portfolio"></a>Portfolio</li>
+++            <li><a href="Services">Services</a></li>
+++            <li><a href="Contact"></a>Contact</li>
+++        </ul>
+++    </nav>
+++
+++    <h1>Part 8</h1>
+++
+++    <input type="text">
+++    <input type="text" placeholder="Enter your name">
+++
+++    <input type="email" placeholder="Enter your email">
+++    <img src="images/profile.jpg" alt="Profile Photo">
+++
+++    <a href="https://www.google.com">Google</a>
+++
+++</body>
+++</html>
++\ No newline at end of file
++diff --git a/emmet-laboratory/04-form.html b/emmet-laboratory/04-form.html
++new file mode 100644
++index 0000000..8031054
++--- /dev/null
+++++ b/emmet-laboratory/04-form.html
++@@ -0,0 +1,22 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=, initial-scale=1.0">
+++    <title>Document</title>
+++</head>
+++<body>
+++    <h1>Student Registration Form</h1>
+++
+++    <div><input type="text" name="Student Id Number" id="IdNumber" placeholder="Enter your ID Number"></div>
+++    <div><input type="email" name="Email" id="EmailInput" placeholder="Email Address"></div>
+++    <div><input type="text" name="" id="" placeholder="Full Name"></div>
+++    <div><input type="password" name="Password" id="pass" placeholder="Password"></div>
+++    <p>Select your Gender</p>
+++    <div><input type="checkbox" name="checkbox" id="Male">Male 
+++        <input type="checkbox" name="checkbox2" id="Female">Female</div>
+++
+++
+++
+++</body>
+++</html>
++\ No newline at end of file
++diff --git a/emmet-laboratory/index.html b/emmet-laboratory/index.html
++new file mode 100644
++index 0000000..d01f779
++--- /dev/null
+++++ b/emmet-laboratory/index.html
++@@ -0,0 +1,11 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Document</title>
+++</head>
+++<body>
+++    
+++</body>
+++</html>
++\ No newline at end of file
++
++commit 1bfe0b644337baf727f4fc514f384d2b78933a42
++Author:     Keeth <kaypi.andrei@gmail.com>
++AuthorDate: 2026-10-03 11:58:50 +0800
++Commit:     Keeth <kaypi.andrei@gmail.com>
++CommitDate: 2026-10-03 11:58:50 +0800
++
++    Emmet Activity
++
++diff --git a/README.md b/README.md
++deleted file mode 100644
++index 2ba5420..0000000
++--- a/README.md
+++++ /dev/null
++@@ -1,2 +0,0 @@
++-# WebTech
++-A Personal Repository for the Course of CIT14 - Web Tecnologies [2627-1T] | CITCS - BSIT Web
++diff --git a/about.html b/about.html
++deleted file mode 100644
++index e69de29..0000000
++diff --git a/contact.html b/contact.html
++deleted file mode 100644
++index e69de29..0000000
++diff --git a/formatting.html b/formatting.html
++deleted file mode 100644
++index 5aa896b..0000000
++--- a/formatting.html
+++++ /dev/null
++@@ -1,11 +0,0 @@
++-<!DOCTYPE html>
++-<html lang="en">
++-<head>
++-    <meta charset="UTF-8">
++-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++-    <title>HTML Text Formatting</title>
++-</head>
++-<body>
++-    
++-</body>
++-</html>
++\ No newline at end of file
++diff --git a/index.html b/index.html
++deleted file mode 100644
++index 2c8490a..0000000
++--- a/index.html
+++++ /dev/null
++@@ -1,34 +0,0 @@
++-<!DOCTYPE html>
++-<html lang="en">
++-<head>
++-    <meta charset="UTF-8">
++-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++-    <title>CIT14 | Web Technologies</title>
++-</head>
++-<body>
++-    <h1>========================</h1>
++-   
++-    <h1>This is My Personal Page</h1>
++-    
++-    <h1>========================</h1>
++-    <hr>
++-        <h2>Keith Phillipp Andrei R. Malicdem</h2>
++-            <p>Bachelor of Science in Information Technology - Major in Web Technologies</p> 
++-     
++-    <h3>About Me</h3>
++-    <p>I am currently developing my niche in the IT Industry, which is actually Web Development.</p>
++-    <p>I was a former IT student in <strong>Saint Louis University</strong>, and since transfered to the 
++-        <strong>University of the Cordilleras</strong></p>
++-
++-    <h3>My Interests</h3>
++-    <ul>
++-        <li>Music</li>
++-        <li>Photography</li>
++-        <li>Videogrophy</li>
++-    </ul>
++-    <h3>Closing Remarks</h3>
++-   <p><i>"Do unto yourself as you would do unto others"</i></p>
++-   <hr>
++-
++-</body>
++-</html>
++\ No newline at end of file
++
++commit 658fa8dd13dc40febe939c58674e38245407f715
++Author:     Keeth <kaypi.andrei@gmail.com>
++AuthorDate: 2026-09-15 12:49:53 +0800
++Commit:     Keeth <kaypi.andrei@gmail.com>
++CommitDate: 2026-09-15 12:49:53 +0800
++
++    Lab Activity 1
++
++diff --git a/about.html b/about.html
++new file mode 100644
++index 0000000..e69de29
++diff --git a/contact.html b/contact.html
++new file mode 100644
++index 0000000..e69de29
++diff --git a/formatting.html b/formatting.html
++new file mode 100644
++index 0000000..5aa896b
++--- /dev/null
+++++ b/formatting.html
++@@ -0,0 +1,11 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>HTML Text Formatting</title>
+++</head>
+++<body>
+++    
+++</body>
+++</html>
++\ No newline at end of file
++diff --git a/index.html b/index.html
++new file mode 100644
++index 0000000..2c8490a
++--- /dev/null
+++++ b/index.html
++@@ -0,0 +1,34 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>CIT14 | Web Technologies</title>
+++</head>
+++<body>
+++    <h1>========================</h1>
+++   
+++    <h1>This is My Personal Page</h1>
+++    
+++    <h1>========================</h1>
+++    <hr>
+++        <h2>Keith Phillipp Andrei R. Malicdem</h2>
+++            <p>Bachelor of Science in Information Technology - Major in Web Technologies</p> 
+++     
+++    <h3>About Me</h3>
+++    <p>I am currently developing my niche in the IT Industry, which is actually Web Development.</p>
+++    <p>I was a former IT student in <strong>Saint Louis University</strong>, and since transfered to the 
+++        <strong>University of the Cordilleras</strong></p>
+++
+++    <h3>My Interests</h3>
+++    <ul>
+++        <li>Music</li>
+++        <li>Photography</li>
+++        <li>Videogrophy</li>
+++    </ul>
+++    <h3>Closing Remarks</h3>
+++   <p><i>"Do unto yourself as you would do unto others"</i></p>
+++   <hr>
+++
+++</body>
+++</html>
++\ No newline at end of file
++
++commit 1742d892df21ff7955f37e8eda404ca13073ba53
++Author:     Keeth <kparm2251814@slu.edu.ph>
++AuthorDate: 2026-09-15 11:49:38 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-09-15 11:49:38 +0800
++
++    Initial commit
++
++diff --git a/README.md b/README.md
++new file mode 100644
++index 0000000..2ba5420
++--- /dev/null
+++++ b/README.md
++@@ -0,0 +1,2 @@
+++# WebTech
+++A Personal Repository for the Course of CIT14 - Web Tecnologies [2627-1T] | CITCS - BSIT Web
+diff --git a/webserver/about.html b/webserver/about.html
+new file mode 100644
+index 0000000..f531fbf
+--- /dev/null
++++ b/webserver/about.html
+@@ -0,0 +1,40 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <title>About Me</title>
++</head>
++<body>
++
++    <nav>
++    <a href="index.html">Home</a> |
++    <a href="about.html">About</a>
++    <a href="contact.html">Contact</a>
++    </nav>
++
++    <h1>About Me</h1>
++
++    <p>This page is hosted using a Python web server in GitHub Codespaces.</p>
++
++    <h2>Hobbies & Interests</h2>
++  <ul>
++    <li>
++      <strong>Manual Coffee Brewing:</strong> Exploring light-roast single-origin beans, grinder calibration, and pour-over kettle dynamics.
++    </li>
++    <li>
++      <strong>Video Production & Editing:</strong> Working with camera log profiles, narrative color grading, and video pacing.
++    </li>
++    <li>
++      <strong>Music & Audio Tracking:</strong> Composing acoustic arrangements, home vocal tracking, and indie cover production.
++    </li>
++    <li>
++      <strong>PC Building & Gaming:</strong> Workstation optimization, display setups, and playing tactical team shooters.
++    </li>
++  </ul>
++  
++
++
++    <a href="index.html">Back to Home</a>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/webserver/contact.html b/webserver/contact.html
+new file mode 100644
+index 0000000..e526eae
+--- /dev/null
++++ b/webserver/contact.html
+@@ -0,0 +1,27 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Contact Me</title>
++</head>
++<body>
++    
++    <nav>
++    <a href="index.html">Home</a> |
++    <a href="about.html">About</a>
++    <a href="contact.html">Contact</a>
++    </nav>
++
++    <h1>Contact Information</h1>
++  <p>Feel free to reach out for school projects, collaborative web work, or academic inquiries.</p>
++
++  <ul>
++    <li><strong>Name:</strong> Keith Phillipp Andrei R. Malicdem</li>
++    <li><strong>Email:</strong> <a href="mailto:kaypi.andrei@gmail.com">kaypi.andrei@gmail.com</a></li>
++    <li><strong>Location:</strong> Baguio City, Philippines</li>
++    <li><strong>School:</strong> University of the Cordilleras</li>
++  </ul>
++    
++</body>
++</html>
+\ No newline at end of file
+diff --git a/webserver/index.html b/webserver/index.html
+new file mode 100644
+index 0000000..e726d45
+--- /dev/null
++++ b/webserver/index.html
+@@ -0,0 +1,29 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>My Codespace Web Server</title>
++</head>
++<body>
++
++   <nav>
++    <a href="index.html">Home</a> |
++    <a href="about.html">About</a>
++    <a href="contact.html">Contact</a>
++    </nav>
++
++    <h1>Welcome to my Web Server</h1>
++
++    <p>This web page is being served from GitHub Codespaces.</p>
++
++    <h2>Student Information</h2>
++
++    <ul>
++        <li>Name: Keith Phillipp Andrei R. Malicdem</li>
++        <li>Student ID: 25-6874-722</li>
++        <li>Course: Bachelors of Science in Information Technology, Major in Web Technology</li>
++    </ul>
++
++</body>
++</html>
+\ No newline at end of file
+
+commit 256ce623f4b2b5924915ca0c2fdd8552cee1fdcf
+Author:     Kieeth <kparm2251814@slu.edu.ph>
+AuthorDate: 2026-10-08 13:29:01 +0800
+Commit:     Kieeth <kparm2251814@slu.edu.ph>
+CommitDate: 2026-10-08 13:29:01 +0800
+
+    final
+
+diff --git a/emmet-laboratory/images/keith.jpg b/emmet-laboratory/images/keith.jpg
+new file mode 100644
+index 0000000..cc60219
+Binary files /dev/null and b/emmet-laboratory/images/keith.jpg differ
+diff --git a/emmet-laboratory/portfolio.html b/emmet-laboratory/portfolio.html
+index d6b9631..b674abd 100644
+--- a/emmet-laboratory/portfolio.html
++++ b/emmet-laboratory/portfolio.html
+@@ -17,24 +17,74 @@
+     
+     <nav>
+         <ul>
+-            <li><a href="Home">Home</a></li>
+-            <li><a href="About">About</a></li>
+-            <li><a href="Skills">Skills</a></li>
+-            <li><a href="Projects">Projects</a></li>
+-            <li><a href="Contact">Contact</a></li>
++            <li><a href="#Home">Home</a></li>
++            <li><a href="#About">About</a></li>
++            <li><a href="#Skills">Skills</a></li>
++            <li><a href="#Projects">Projects</a></li>
++            <li><a href="#Contact">Contact</a></li>
+         </ul>
+     </nav>
+         
+     <section id="About">
+         <article>
+         <h2>About Me</h2>
+-        <p>Keith Philipp Andrei R. Malicdem is an undergraduate student pursuing a 
++        <p><strong>Keith Philipp Andrei R. Malicdem</strong> is an undergraduate student pursuing a 
+             Bachelor of Science in Information Technology with a major in Web Technologies at 
+             University of the Cordilleras in Baguio City, Philippines. Blending a keen eye for graphic design, 
+             layouting, and photography, he naturally unites his creative passions with his technical studies 
+             by focusing his niche in web development on the front-end side of things.
+         </p>
++
++        <img src="images/keith.jpg" alt="Keith Phillipp Andrei R. Malicdem" width="200" height="200">
++        </article>
++    </section>  
++
++    <section id="Skills">
++        <article>
++        <h2>Skills</h2>
++        <ul>
++            <li>HTML5</li>
++            <li>CSS3</li>
++            <li>JavaScript</li>
++            <li>Git and GitHub</li>
++            <li>Responsive Web Design</li>
++        </ul>
+         </article>
++    </section>
++
++    <section id="Projects">
++        <article>
++        <h2>Projects</h2>
++        <p>Here are some of my projects:</p>
++        <ul>
++            <li>Project 1</li>
++                <p>Description of Project 1: A responsive web application that allows users to track their daily tasks and set reminders.</p>
++            <li>Project 2</li>
++                <p>Description of Project 2: A portfolio website showcasing my web development projects and skills, built using HTML, CSS, and JavaScript.</p>
++            <li>Project 3</li>
++                <p>Description of Project 3: A simple blog website built using HTML and CSS.</p>
++        </ul>
++        </article>
++    </section>
++
++    <section id="Contact">
++        <article>
++        <h2>Contact</h2>
++        <p>You can reach me at:</p>
++        <ul>
++            <li>Email: andreirmalicdem@gmail.com</li>
++            <li>Phone: +63 965 206 3279</li>
++            
++        </ul>
++        <div>
++        <p>Feel free to connect with me for any web development opportunities or collaborations!</p>
++            <input type="text" name="Name" id="Name" placeholder="Your Name">
++            <input type="email" name="Email" id="Email" placeholder="Your Email">
++            <input type="text" name="Subject" id="Subject" placeholder="Subject">
++            <input type="text" name="Message" id="Message" placeholder="Your Message">
++            <input type="submit" value="Send Message">
++        </div>
++    </section>
+ 
+ </body>
+ </html>
+\ No newline at end of file
+
+commit 87dd45ffad31dadbd3d9b8534e23ad04c49c9971
+Author:     Kieeth <kparm2251814@slu.edu.ph>
+AuthorDate: 2026-10-08 13:07:52 +0800
+Commit:     Kieeth <kparm2251814@slu.edu.ph>
+CommitDate: 2026-10-08 13:07:52 +0800
+
+    portfolio and semantic html files have been modified. The portfolio.html file now includes an "About Me" section with a brief introduction about the author, Keith Philipp Andrei R. Malicdem, highlighting his academic background and interests in web development and design. The semantic.html file has also been updated, but the specific changes are not detailed in the commit message.
+
+diff --git a/emmet-laboratory/05-semantic.html b/emmet-laboratory/05-semantic.html
+index 9e6fd74..0a96a7b 100644
+--- a/emmet-laboratory/05-semantic.html
++++ b/emmet-laboratory/05-semantic.html
+@@ -27,7 +27,6 @@
+ 
+         </article>
+     </section>
+-    
+     <div class="container">
+         <header>
+             <h1>My Portfolio</h1>
+diff --git a/emmet-laboratory/portfolio.html b/emmet-laboratory/portfolio.html
+new file mode 100644
+index 0000000..d6b9631
+--- /dev/null
++++ b/emmet-laboratory/portfolio.html
+@@ -0,0 +1,40 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>My Portfolio</title>
++</head>
++<body>
++    
++    <header>
++        <h1>Keith Phillipp Andrei R. Malicdem</h1>
++        <h2>Short Introduction</h2>
++        <p>A Bachelor of Science in Information Technology student</p>
++        <p>Major in Web Technologies, focused in Front-end Development</p>
++        <p>and Progressive Web Applications.</p>
++    </header> 
++    
++    <nav>
++        <ul>
++            <li><a href="Home">Home</a></li>
++            <li><a href="About">About</a></li>
++            <li><a href="Skills">Skills</a></li>
++            <li><a href="Projects">Projects</a></li>
++            <li><a href="Contact">Contact</a></li>
++        </ul>
++    </nav>
++        
++    <section id="About">
++        <article>
++        <h2>About Me</h2>
++        <p>Keith Philipp Andrei R. Malicdem is an undergraduate student pursuing a 
++            Bachelor of Science in Information Technology with a major in Web Technologies at 
++            University of the Cordilleras in Baguio City, Philippines. Blending a keen eye for graphic design, 
++            layouting, and photography, he naturally unites his creative passions with his technical studies 
++            by focusing his niche in web development on the front-end side of things.
++        </p>
++        </article>
++
++</body>
++</html>
+\ No newline at end of file
+
+commit 6bd577dfc206f3e1859717683b21bda3ad27dc5f
+Author:     Kieeth <kparm2251814@slu.edu.ph>
+AuthorDate: 2026-10-08 12:49:07 +0800
+Commit:     Kieeth <kparm2251814@slu.edu.ph>
+CommitDate: 2026-10-08 12:49:07 +0800
+
+    commit more
+
+diff --git a/emmet-laboratory/05-semantic.html b/emmet-laboratory/05-semantic.html
+index 53dd6ea..9e6fd74 100644
+--- a/emmet-laboratory/05-semantic.html
++++ b/emmet-laboratory/05-semantic.html
+@@ -27,10 +27,25 @@
+ 
+         </article>
+     </section>
++    
++    <div class="container">
++        <header>
++            <h1>My Portfolio</h1>
++            <p>Web Developer</p>
++        </header>
++        <nav>
++            <ul>
++                <li><a href="#Home">Home</a></li>
++                <li><a href="#About">About</a></li>
++                <li><a href="#Services">Services</a></li>
++                <li><a href="#Contact">Contact</a></li>
++            </ul>
++        </nav>
++    </div>
+ </main>
+ 
+ <footer>
+     <p></p>
+ </footer>
+ 
+-</html>
+\ No newline at end of file
++</html>     
+\ No newline at end of file
+
+commit 9bee3e68e7ade43c3dadc752b50df41650da20a8
+Author:     Kieeth <kparm2251814@slu.edu.ph>
+AuthorDate: 2026-10-08 12:42:51 +0800
+Commit:     Kieeth <kparm2251814@slu.edu.ph>
+CommitDate: 2026-10-08 12:42:51 +0800
+
+    intigration of #4 and #5
+
+diff --git a/emmet-laboratory/04-form.html b/emmet-laboratory/04-form.html
+index 8031054..dd6eaa6 100644
+--- a/emmet-laboratory/04-form.html
++++ b/emmet-laboratory/04-form.html
+@@ -10,11 +10,19 @@
+ 
+     <div><input type="text" name="Student Id Number" id="IdNumber" placeholder="Enter your ID Number"></div>
+     <div><input type="email" name="Email" id="EmailInput" placeholder="Email Address"></div>
+-    <div><input type="text" name="" id="" placeholder="Full Name"></div>
++    <div><input type="text" name="Full Name" id="FullNameInput" placeholder="Full Name"></div>
+     <div><input type="password" name="Password" id="pass" placeholder="Password"></div>
+     <p>Select your Gender</p>
+     <div><input type="checkbox" name="checkbox" id="Male">Male 
+         <input type="checkbox" name="checkbox2" id="Female">Female</div>
++    <p>Enter your Course</p>
++    <input type="text" name="Course" id="CourseInput" placeholder="Course">
++    <p>What are your Hobbies</p>
++    <input type="text" name="Hobbies" id="HobbiesInput" placeholder="Hobbies">
++    <p>What is your Address</p>
++    <input type="text" name="Address" id="AddressInput" placeholder="Address">
++    <p></p>
++    <input type="submit" value="Submit">    
+ 
+ 
+ 
+diff --git a/emmet-laboratory/05-semantic.html b/emmet-laboratory/05-semantic.html
+new file mode 100644
+index 0000000..53dd6ea
+--- /dev/null
++++ b/emmet-laboratory/05-semantic.html
+@@ -0,0 +1,36 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<header>
++    <h1>My Semantic Website</h1>
++</header>
++<nav>
++    <ul>
++        <li><a href="#Home">Home</a></li>
++        <li><a href="#About">About</a></li>
++        <li><a href="#Services">Services</a></li>
++        <li><a href="#Contact">Contact</a></li>
++    </ul>
++</nav>
++
++<main>
++    <section id="Home">
++        <article>
++            This is the Home section of My Semantic Website.
++            I am Keith Phillipp Andrei R. Malicdem,
++            a student of Bachelor of Science in Information Technology 
++            at the University of the Cordilleras.       
++
++        </article>
++    </section>
++</main>
++
++<footer>
++    <p></p>
++</footer>
++
++</html>
+\ No newline at end of file
+
+commit 5f33fa7da07569db433efcf56c7ea1cb9c80efd8
+Author:     Keeth <kaypi.andrei@gmail.com>
+AuthorDate: 2026-10-03 12:41:34 +0800
+Commit:     Keeth <kaypi.andrei@gmail.com>
+CommitDate: 2026-10-03 12:41:34 +0800
+
+    Emmet Activities
+
+diff --git a/emmet-laboratory/01-basic.html b/emmet-laboratory/01-basic.html
+new file mode 100644
+index 0000000..4b66201
+--- /dev/null
++++ b/emmet-laboratory/01-basic.html
+@@ -0,0 +1,37 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>01-basic-html</title>
++</head>
++
++<header>
++    <nav>
++        <ul>
++            <li></li>
++            <li></li>
++            <li></li>
++            <li></li>
++        </ul>
++    </nav>
++</header>
++
++<main>
++    <body>
++        <h1>This is the Emmet Laboratory Activity</h1>
++
++        <h2>This is a Heading 2 tag</h2>
++        <h2>This is another Heading 2 tag</h2>
++
++        <p>This is the first paragraph tag</p>
++        <p>This is the second paragraph tag</p>
++        <p>This is the third Paragraph tag</p>
++
++    </body>
++</main>
++
++    <footer>
++    
++    </footer>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/02-classes-ids.html b/emmet-laboratory/02-classes-ids.html
+new file mode 100644
+index 0000000..37e22f6
+--- /dev/null
++++ b/emmet-laboratory/02-classes-ids.html
+@@ -0,0 +1,78 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <h1>Part 3</h1>
++    <p class="introduction"></p>
++    <div id="container"></div>
++    <div class="card featured"></div>
++    <section id="about" class="content-section"></section>
++
++    <header class="siteheader"></header>
++    <nav id="main-nav"></nav>
++    <main class="content"></main>
++    <section id="about"></section>
++    <footer class="sitefooter"></footer>
++
++<h1>Part 4 - A</h1>
++
++<ul>
++    <li></li>
++</ul>
++
++<nav>
++    <ul>
++        <li></li>
++    </ul>
++</nav>
++
++<nav>
++    <ul>
++        <li></li>
++        <li></li>
++        <li></li>
++        <li></li>
++        <li></li>
++    </ul>
++</nav>
++
++<h1>Part 4 - B</h1>
++
++<h1></h1>
++<p></p>
++
++<hi></hi>
++<h2></h2>
++<p></p>
++<p></p>
++
++<h1>Part 4 - C</h1>
++
++<li></li>
++<li></li>
++<li></li>
++<li></li>
++<li></li>
++
++<div></div>
++<div></div>
++<div></div>
++
++<P></P>
++<P></P>
++<P></P>
++<P></P>
++<P></P>
++
++<h1>Part 5</h1>
++
++<h1>My Web Development Journey</h1>
++<p>I am Learning HTML, CSS, JavaScript, and Web Development</p>
++
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/03-navigation.html b/emmet-laboratory/03-navigation.html
+new file mode 100644
+index 0000000..1c5f845
+--- /dev/null
++++ b/emmet-laboratory/03-navigation.html
+@@ -0,0 +1,64 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Navigation</title>
++
++</head>
++<body>
++
++    <h2>Part 6</h2>
++
++    <ul>
++        <li class="Home">Home</li>
++        <li class="About">About</li>
++        <li class="Services">Services</li>
++        <li class="Projects">Projects</li>
++        <li class="Contact">Contact</li>
++    </ul>
++
++    <h2>Part 7</h2>
++    
++    <nav>
++        <ul>
++            <li><a href=""></a></li>
++            <li><a href=""></a></li>
++            <li><a href=""></a></li>
++            <li><a href=""></a></li>
++            <li><a href=""></a></li>
++        </ul>
++    </nav>
++
++    <nav>
++        <ul>
++            <li><a href="">Menu 1</a></li>
++            <li><a href="">Menu 2</a></li>
++            <li><a href="">Menu 3</a></li>
++            <li><a href="">Menu 4</a></li>
++            <li><a href="">Menu 5</a></li>
++        </ul>
++    </nav>
++
++    <nav>
++        <ul>
++            <li><a href="Name"></a>Home</li>
++            <li><a href="About"></a>About</li>
++            <li><a href="Portfolio"></a>Portfolio</li>
++            <li><a href="Services">Services</a></li>
++            <li><a href="Contact"></a>Contact</li>
++        </ul>
++    </nav>
++
++    <h1>Part 8</h1>
++
++    <input type="text">
++    <input type="text" placeholder="Enter your name">
++
++    <input type="email" placeholder="Enter your email">
++    <img src="images/profile.jpg" alt="Profile Photo">
++
++    <a href="https://www.google.com">Google</a>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/04-form.html b/emmet-laboratory/04-form.html
+new file mode 100644
+index 0000000..8031054
+--- /dev/null
++++ b/emmet-laboratory/04-form.html
+@@ -0,0 +1,22 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <h1>Student Registration Form</h1>
++
++    <div><input type="text" name="Student Id Number" id="IdNumber" placeholder="Enter your ID Number"></div>
++    <div><input type="email" name="Email" id="EmailInput" placeholder="Email Address"></div>
++    <div><input type="text" name="" id="" placeholder="Full Name"></div>
++    <div><input type="password" name="Password" id="pass" placeholder="Password"></div>
++    <p>Select your Gender</p>
++    <div><input type="checkbox" name="checkbox" id="Male">Male 
++        <input type="checkbox" name="checkbox2" id="Female">Female</div>
++
++
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/index.html b/emmet-laboratory/index.html
+new file mode 100644
+index 0000000..d01f779
+--- /dev/null
++++ b/emmet-laboratory/index.html
+@@ -0,0 +1,11 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    
++</body>
++</html>
+\ No newline at end of file
+
+commit 1bfe0b644337baf727f4fc514f384d2b78933a42
+Author:     Keeth <kaypi.andrei@gmail.com>
+AuthorDate: 2026-10-03 11:58:50 +0800
+Commit:     Keeth <kaypi.andrei@gmail.com>
+CommitDate: 2026-10-03 11:58:50 +0800
+
+    Emmet Activity
+
+diff --git a/README.md b/README.md
+deleted file mode 100644
+index 2ba5420..0000000
+--- a/README.md
++++ /dev/null
+@@ -1,2 +0,0 @@
+-# WebTech
+-A Personal Repository for the Course of CIT14 - Web Tecnologies [2627-1T] | CITCS - BSIT Web
+diff --git a/about.html b/about.html
+deleted file mode 100644
+index e69de29..0000000
+diff --git a/contact.html b/contact.html
+deleted file mode 100644
+index e69de29..0000000
+diff --git a/formatting.html b/formatting.html
+deleted file mode 100644
+index 5aa896b..0000000
+--- a/formatting.html
++++ /dev/null
+@@ -1,11 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-<head>
+-    <meta charset="UTF-8">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>HTML Text Formatting</title>
+-</head>
+-<body>
+-    
+-</body>
+-</html>
+\ No newline at end of file
+diff --git a/index.html b/index.html
+deleted file mode 100644
+index 2c8490a..0000000
+--- a/index.html
++++ /dev/null
+@@ -1,34 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-<head>
+-    <meta charset="UTF-8">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>CIT14 | Web Technologies</title>
+-</head>
+-<body>
+-    <h1>========================</h1>
+-   
+-    <h1>This is My Personal Page</h1>
+-    
+-    <h1>========================</h1>
+-    <hr>
+-        <h2>Keith Phillipp Andrei R. Malicdem</h2>
+-            <p>Bachelor of Science in Information Technology - Major in Web Technologies</p> 
+-     
+-    <h3>About Me</h3>
+-    <p>I am currently developing my niche in the IT Industry, which is actually Web Development.</p>
+-    <p>I was a former IT student in <strong>Saint Louis University</strong>, and since transfered to the 
+-        <strong>University of the Cordilleras</strong></p>
+-
+-    <h3>My Interests</h3>
+-    <ul>
+-        <li>Music</li>
+-        <li>Photography</li>
+-        <li>Videogrophy</li>
+-    </ul>
+-    <h3>Closing Remarks</h3>
+-   <p><i>"Do unto yourself as you would do unto others"</i></p>
+-   <hr>
+-
+-</body>
+-</html>
+\ No newline at end of file
+
+commit 658fa8dd13dc40febe939c58674e38245407f715
+Author:     Keeth <kaypi.andrei@gmail.com>
+AuthorDate: 2026-09-15 12:49:53 +0800
+Commit:     Keeth <kaypi.andrei@gmail.com>
+CommitDate: 2026-09-15 12:49:53 +0800
+
+    Lab Activity 1
+
+diff --git a/about.html b/about.html
+new file mode 100644
+index 0000000..e69de29
+diff --git a/contact.html b/contact.html
+new file mode 100644
+index 0000000..e69de29
+diff --git a/formatting.html b/formatting.html
+new file mode 100644
+index 0000000..5aa896b
+--- /dev/null
++++ b/formatting.html
+@@ -0,0 +1,11 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>HTML Text Formatting</title>
++</head>
++<body>
++    
++</body>
++</html>
+\ No newline at end of file
+diff --git a/index.html b/index.html
+new file mode 100644
+index 0000000..2c8490a
+--- /dev/null
++++ b/index.html
+@@ -0,0 +1,34 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>CIT14 | Web Technologies</title>
++</head>
++<body>
++    <h1>========================</h1>
++   
++    <h1>This is My Personal Page</h1>
++    
++    <h1>========================</h1>
++    <hr>
++        <h2>Keith Phillipp Andrei R. Malicdem</h2>
++            <p>Bachelor of Science in Information Technology - Major in Web Technologies</p> 
++     
++    <h3>About Me</h3>
++    <p>I am currently developing my niche in the IT Industry, which is actually Web Development.</p>
++    <p>I was a former IT student in <strong>Saint Louis University</strong>, and since transfered to the 
++        <strong>University of the Cordilleras</strong></p>
++
++    <h3>My Interests</h3>
++    <ul>
++        <li>Music</li>
++        <li>Photography</li>
++        <li>Videogrophy</li>
++    </ul>
++    <h3>Closing Remarks</h3>
++   <p><i>"Do unto yourself as you would do unto others"</i></p>
++   <hr>
++
++</body>
++</html>
+\ No newline at end of file
+
+commit 1742d892df21ff7955f37e8eda404ca13073ba53
+Author:     Keeth <kparm2251814@slu.edu.ph>
+AuthorDate: 2026-09-15 11:49:38 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-15 11:49:38 +0800
+
+    Initial commit
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..2ba5420
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1,2 @@
++# WebTech
++A Personal Repository for the Course of CIT14 - Web Tecnologies [2627-1T] | CITCS - BSIT Web
