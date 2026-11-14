@@ -1,0 +1,28 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    background-color: cadetblue;
+
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: azure;
+    
+
+}
+
+.card{
+    max-width: fit-content;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px ;
+    background-color: aliceblue;
+    
+}
+
+.card p {
+    
+}
